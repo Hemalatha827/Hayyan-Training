@@ -1,0 +1,166 @@
+{
+    "CC_ENCRYPTION": {
+        "KEY": "09042018",
+        "IV": "15072022"
+    },
+    "BOT": {
+        "AUTH": "1272625.Zur5Wdz9FUm3LlOyF7L5mVEYeMDpM6WY1"
+    },
+    "PAYTMENT": {
+        "LINK_GENERATOR_API": "https://api.razorpay.com/v1/payment_links",
+        "CURRENCY": "INR",
+        "AUTH_TOKEN": "cnpwX3Rlc3RfcFZwcGZNN0VObWdZalo6Qmc0dlNPRFV6czRGNmFBZDdtOEJSdWFm",
+        "STRIPE_CREATE_TOKEN": "https://api.stripe.com/v1/tokens",
+        "STRIPE_CREATE_CHARGE": "https://api.stripe.com/v1/charges"
+    },
+    "SERVER": {
+        "ZS_SERVER": "http://35.208.215.37:80",
+        "ZS_AUTH": "YWRtaW46YWRtaW4xIQ==",
+        "ZS_PRODUCT_INDEX": "hayyan-products",
+        "ZS_B2B_PRODUCT_INDEX": "hayyan-b2b-products",
+        "ZS_QUICK_REPLIES_INDEX": "hayyan-cat-qr",
+        "ZS_PRODUCT_SIZE_INDEX": "hayyan-product-size",
+        "ZS_CART_INDEX": "hayyan-cart",
+        "ZS_ORDERS_INDEX": "hayyan-orders",
+        "ZS_ORDERS_HISTORY_INDEX": "hayyan-orders-history"
+    },
+    "BOTAMATION_CUF_DATA_PROCESSING": {
+        "SEND_FLOW": "send_flow",
+        "SET_CUF": "set_field_value",
+        "REMOVE_CUF": "unset_field_value",
+        "ADD_TAG": "add_tag",
+        "REMOVE_TAG": "remove_tag"
+    },
+    "MESSAGE": {
+        "INVALID_ORDER": "🕒 Looks like the order has expired. Kindly create a new cart🛍️ or utilize the fresh payment link💳 to complete the payment",
+        "CART_EMPTY": "Your shopping cart is empty now! Add your product and complete the purchase in a blaze!!",
+        "PRODUCT_NOT_AVAILABLE": "Sorry! one of your product in the cart is not available anymore",
+        "PRODUCT_NOT_IN_CART": "Product not available in your shopping cart",
+        "PRODUCT_REMOVED_FROM_CART": "Product removed from your shopping Cart",
+        "PRODUCT_ADDED_TO_CART": "${product-name} x{product-count} added to your shopping Cart",
+        "ORDER_CREATED_MSG": "📋Your order is ready!",
+        "ORDER_CONFIRMED_MSG": "✅Your order is confirmed!🎉",
+        "ORDER_CONFIRMED_ADDL_MSG": "We will notify you once it is shipped📦",
+        "PAYMENT_LINK_MSG": "💳Kindly proceed with payment within the next 30 minutes!",
+        "PAYMENT_LINK_IMG": "https://i.ibb.co/2P7V0qS/future-payment-methods-compressor-1.jpg",
+        "NEXT": "Next⏩",
+        "RETURN": "↩️Back"
+    },
+    "SEARCH": {
+        "MAX_PAGE_SIZE": 9,
+        "CURRENCY_SYMBOL": "₹",
+        "CURRENCY_LOCAL_DENOMINATION": "en-IN"
+    },
+    "ORDER_STATUS": {
+        "TO_BE_PROCESSED": "To be processed",
+        "PAYMENT_LINK_ERROR": "Payment Link Error",
+        "STRIPE_TOKEN_ERROR": "Token Error",
+        "STRIPE_CHARGE_ERROR": "Charge Error",
+        "UNEXPECTED_ERROR": "Unknown Error",
+        "SHIPPED": "Shipped",
+        "DELIVERED": "Delivered",
+        "CALCELLED": "Cancelled",
+        "RETURNED": "Returned"
+    },
+    "PAYMENT_STATUS": {
+        "PENDING": "Payment pending",
+        "COMPLETED": "succeeded"
+    },
+    "URL": {
+        "PAYMENT_LINK_TEXT": "💳Pay Now"
+    },
+    "FLOW": {
+        "PAYMENT_COFIRMATION": {
+            "FLOW_ID": "1690391473941"
+        },
+        "CHECKOUT": {
+            "TEXT": "💼Checkout",
+            "FLOW_ID": "1690291182148"
+        },
+        "SKIP_CHECKOUT": {
+            "TEXT": "⏭️Skip & Checkout"
+        },
+        "DELETE_CART": {
+            "TEXT": "🗑️Delete Cart",
+            "FLOW_ID": "1690210430423"
+        },
+        "CONTINUE_SHOPPING": {
+            "TEXT": "🛍️Continue Shopping",
+            "FLOW_ID": "1689405636359"
+        },
+        "CONFIRM_PROCEED_TO_PAYMENT": {
+            "TEXT": "✅Confirm & Proceed",
+            "FLOW_ID": "1696768079934"
+        },
+        "UPDATE_CONTACT_DETAILS": {
+            "TEXT": "👨‍🔧Update Details",
+            "FLOW_ID": "1690294047572"
+        },
+        "VIEW_CART": {
+            "TEXT": "🛒View Cart",
+            "FLOW_ID": "1690215630291"
+        },
+        "EDIT_CART": {
+            "TEXT": "🛒Edit Cart",
+            "FLOW_ID": "1690215630291"
+        },
+        "QUICK_SEARCH": {
+            "TEXT": "🛍️Continue Shopping",
+            "FLOW_ID": "1689405636359"
+        },
+        "ADVANCED_SEARCH": {
+            "TEXT": "🧐Advanced Search",
+            "FLOW_ID": "1689405793694"
+        },
+        "SHOW_INTEREST": {
+            "TEXT": "✨Show Interest",
+            "FLOW_ID": "1703863867414"
+        },
+        "ADD_TO_CART": {
+            "TEXT": "🛍️Add to Cart",
+            "FLOW_ID": "1690050383186"
+        },
+        "REMOVE_FROM_CART": {
+            "TEXT": "🗑️Remove",
+            "FLOW_ID": "1690206648086"
+        },
+        "DELETE_ALL_CART": {
+            "TEXT": "🗑️Delete Cart",
+            "FLOW_ID": "1690210430423"
+        },
+        "UPDATE_ITEM_IN_CART": {
+            "TEXT": "✅Update Cart Item",
+            "FLOW_ID": "1690050383186"
+        },
+        "NEXT_PAGE_PRODUCT_SEARCH_CARDS": {
+            "TEXT": "More Items▶️",
+            "FLOW_ID": "1688916910534",
+            "IMAGE": "https://t4.ftcdn.net/jpg/04/53/56/71/360_F_453567140_G5FXfiCMsFGNphsAvjKa90r1KJtG6qiL.jpg"
+        },
+        "NEXT_PAGE_TOPPINGS_SEARCH_CARDS": {
+            "TEXT": "More Items▶️",
+            "FLOW_ID": "1691825096405",
+            "IMAGE": "https://t4.ftcdn.net/jpg/04/53/56/71/360_F_453567140_G5FXfiCMsFGNphsAvjKa90r1KJtG6qiL.jpg"
+        },
+        "CANCEL_ORDER": {
+            "TEXT": "❌Cancel Order",
+            "FLOW_ID": "1690291182148"
+        },
+        "SELECT_SIZE": {
+            "TEXT": "✅Select",
+            "FLOW_ID": "1691760252513"
+        },
+        "VIEW_OPTIONS": {
+            "TEXT": "📏VIEW OPTIONS"
+        },
+        "CHOOSE_SPICINESS": {
+            "FLOW_ID": "1691778456827"
+        },
+        "EMPTY_CART_MSG_FLOW": {
+            "FLOW_ID": "169029074679"
+        },
+        "EMAIL_TRIGGER": {
+            "FLOW_ID": "1696776385676"
+        }
+    }
+}
